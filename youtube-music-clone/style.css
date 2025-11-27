@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color:#030303;
+}
+
+.nav-bar-container{
+  display: flex;
+  z-index: 0;
+}
+
+
+
+#nav-bar-background{
+  height: 64px;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  background: #030303;
+  z-index: -1;
+}
+
+#nav-bar-divider{
+  position: fixed;
+  top: 64px;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+  width: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  background:#030303;
+
+} 
+
+.nav-bar{
+  width: calc(100vw - 12px);
+  height: 64px;
+}
+
+div#guide-button.style-scope-ytmusic-nav-bar{
+  cursor: pointer;
+}
+#ytmusic-logo{
+  cursor: pointer;
+}
+
+#guide-button svg{
+
+  margin-right:12px;
+  padding: 8px;
+}
+
+div#left-content.left-content-style-scope-ytmusic-nav-bar {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 148px;
+  padding-left: 16px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+
+}
