@@ -4,9 +4,13 @@
   background-color:#030303;
 }
 
-.nav-bar-container{
+.container-top-content{
   display: flex;
-  z-index: 0;
+  width: calc(100vw - 12px);
+  height: 64px;
+  align-items: center;
+  justify-content: flex-start;
+  position: fixed;
 }
 
 
@@ -29,13 +33,8 @@
   width: 100%;
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   background:#030303;
-
 } 
 
-.nav-bar{
-  width: calc(100vw - 12px);
-  height: 64px;
-}
 
 div#guide-button.style-scope-ytmusic-nav-bar{
   cursor: pointer;
@@ -58,5 +57,61 @@ div#left-content.left-content-style-scope-ytmusic-nav-bar {
   padding-left: 16px;
   flex-shrink: 0;
   box-sizing: border-box;
+}
 
+.center-content-style-scope-ytmusic-nav-bar{
+  height: 64px;
+  width: 1019px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  padding: 8px 0;
+  flex-shrink: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  position: relative;
+  background:transparent;
+
+}
+
+div#search-bar.search-bar-container{
+  height: 100%;
+  width: 480px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-width: 0.8px;
+  background: transparent;
+}
+
+#input{
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.15);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+#button{
+  height: 100%;
+  border: none;
+  background: rgba(255, 255, 255, 0.15); 
+  cursor: pointer; 
+}
+
+#but-icon{
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  padding-right: 8px;
+  height: 100%;
+  cursor: pointer;
 }
