@@ -115,3 +115,18 @@ div#search-bar.search-bar-container{
   height: 100%;
   cursor: pointer;
 }
+
+#right-content.nav-bar{
+  position: relative;
+  height: 64px;
+  width: 100px;
+  background:transparent;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  right:-160px;
+}
+
+#right-content img{
+  background: transparent;
+}
