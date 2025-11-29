@@ -126,12 +126,61 @@
 
 <div class="audio-background"></div>
 <div class="audio-background-container">
-  <div id="audio-range" class="audio-background-container">
+  <div id="audio-range">
     <input type="range" id="paper-slider">
   </div>
-  <div id="left-content" class="audio-background-container"></div>
-  <div id="middle-content" class="audio-background-container"></div>
-  <div id="right-content" class="audio-background-container"></div>
+<div class="left-content-buttom">
+  <div id="previous-btn">
+    <button>      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M19 18V6L8 12L19 18Z" fill="white"/>
+      <path d="M5 6V18" stroke="white" stroke-width="2" stroke-linecap="round"/>
+      </svg></button>
+
+  </div>
+
+  <div id="play-btn">
+    <button> <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M5 3L19 12L5 21V3Z" fill="white"/>
+    </svg></button>
+
+  </div>
+  
+  <div id="next-btn">
+    <button><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+  <path d="M4.5 4.5v15l9-7.5-9-7.5z" fill="#ffffff"/>
+  <rect x="15.5" y="4.5" width="1.8" height="15" rx="0.2" fill="#ffffff"/>
+</svg></button>
+
+  </div>
+  <span id="time-info">00:00 / 00:00</span>
+</div>
+<!-- <div id="middle-content" class="audio-background-container"></div>  -->
+  <div id="right-content">
+    <div id = "volume"><svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  <title>Volume</title>
+  <path d="M11 5 L6 9 H3 v6 h3 l5 4 V5 Z"/>
+  <path d="M16.5 8.5 A4.5 4.5 0 0 1 16.5 15.5"/>
+  <path d="M19 6 A7 7 0 0 1 19 18"/>
+</svg></div>
+    <div id="loop"><svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  <title>Repeat</title>
+  <path d="M21 8v6a2 2 0 0 1-2 2H8"/>
+  <polyline points="18 8 21 5 18 2"/>
+  <path d="M3 16v-6a2 2 0 0 1 2-2h11"/>
+  <polyline points="6 16 3 19 6 22"/>
+</svg></div>
+    <div id="shuffle"><svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  <title>Shuffle</title>
+  <path d="M16 3h5v5"/>
+  <path d="M21 3L13 11"/>
+  <path d="M3 21h5l7-9"/>
+  <path d="M21 21l-4-4"/>
+</svg></div>
+    <div id="downArrow"> <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="white" stroke="none" aria-hidden="true">
+  <title>Chevron down</title>
+  <polygon points="6,9 12,15 18,9"/>
+</svg></div>
+  </div>
 </div>
 
 

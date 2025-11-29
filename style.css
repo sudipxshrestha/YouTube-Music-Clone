@@ -207,10 +207,14 @@ div#upgrade-icon{
   width: calc(100vw - 12px);
   height: 70px;
   background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   bottom: 0;
 }
 
-div#audio-range.audio-background-container{
+div#audio-range{
+  position: absolute;
   width: 100%;
   height: 2px;
   background: transparent;
@@ -227,6 +231,82 @@ div#audio-range.audio-background-container{
   border-radius: 8px;
   accent-color: red;
 }
+
+.left-content-buttom{
+  height: 60px;
+  width: 240px;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+
+#previous-btn{
+  box-sizing: border-box;
+  width: 48px;
+  height: 44px;
+  margin-left: 8px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+}
+
+#play-btn{
+  box-sizing: border-box;
+  width: 64px;
+  height: 60px;
+  margin-left: 8px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+}
+
+
+#next-btn{
+  box-sizing: border-box;
+  width: 48px;
+  height: 44px;
+  margin-left: 8px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+}
+
+button{
+  background-color: transparent;
+  outline: none;
+  border: none;
+   cursor: pointer;
+}
+
+#time-info{
+  display: flex;
+  color:rgb(170,170,170);
+  overflow: hidden;
+  flex-wrap: nowrap;
+  font-size: small;
+  white-space: nowrap;   /* keep text on one line */
+  flex: 0 0 auto;       /* don't shrink or grow — preserve its width */
+  align-self: center;   /* vertical centering inside parent */
+  margin-left: 8px;
+}
+
+
+#right-content{
+  height: 72px;
+  width: 240px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 
 
 
