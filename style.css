@@ -160,9 +160,37 @@ div#search-bar.search-bar-container{
   color: white;
   display: flex;
   flex-direction: column;
+  gap:30px;
 }
 
 div#home-icon{
+  padding-top:20px ;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  cursor: pointer;
 }
+
+div#explore-icon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+div#library-icon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+div#upgrade-icon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+
