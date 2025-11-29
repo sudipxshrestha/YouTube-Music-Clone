@@ -71,6 +71,7 @@ div#left-content.left-content-style-scope-ytmusic-nav-bar {
   font-size: 10px;
   position: relative;
   background:transparent;
+  padding-left: 50px;
 
 }
 
@@ -192,5 +193,41 @@ div#upgrade-icon{
   align-items: center;
   cursor: pointer;
 }
+
+.audio-background{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 72px;
+  background-color:#030303;
+}
+
+.audio-background-container{
+  position: fixed;
+  width: calc(100vw - 12px);
+  height: 70px;
+  background-color: transparent;
+  bottom: 0;
+}
+
+div#audio-range.audio-background-container{
+  width: 100%;
+  height: 2px;
+  background: transparent;
+  background-color: rgba(255, 255, 255, 0.15);
+  bottom: 70px;
+}
+
+#paper-slider{
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+  border-radius: 8px;
+  accent-color: red;
+}
+
+
 
 
