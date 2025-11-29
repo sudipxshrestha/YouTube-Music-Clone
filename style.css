@@ -208,11 +208,13 @@ div#upgrade-icon{
   height: 70px;
   background-color: transparent;
   display: flex;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: space-between;
   bottom: 0;
 }
 
-div#audio-range.audio-background-container{
+div#audio-range{
+  position: absolute;
   width: 100%;
   height: 2px;
   background: transparent;
@@ -230,12 +232,12 @@ div#audio-range.audio-background-container{
   accent-color: red;
 }
 
-div#left-content.audio-background-container{
+.left-content-buttom{
   height: 60px;
   width: 240px;
   display: flex;
   align-items: center;
-  flex: 1;
+  z-index: 1;
 }
 
 
@@ -261,7 +263,6 @@ div#left-content.audio-background-container{
   margin-top: 4px;
   display: flex;
   align-items: center;
-
 }
 
 
@@ -295,6 +296,17 @@ button{
   align-self: center;   /* vertical centering inside parent */
   margin-left: 8px;
 }
+
+
+#right-content{
+  height: 72px;
+  width: 240px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 
 
 
