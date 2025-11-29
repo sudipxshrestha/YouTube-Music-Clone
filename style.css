@@ -307,6 +307,37 @@ button{
   justify-content: space-evenly;
 }
 
+.middle-content-container{
+  height: 72px;
+  width: 240px;
+  background-color:transparent;
+  color: white;
+  display: flex;
+  gap:5px;
+}
+#song-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+#song-img{
+  display: flex;
+  align-items: center;
+}
+
+#song-title{
+  display: flex;
+  align-items: center;
+}
+
+#song-addtional-info{
+  display: flex;
+  justify-content: space-between;
+
+}
+
 
 
 
