@@ -129,9 +129,33 @@
   <div id="audio-range" class="audio-background-container">
     <input type="range" id="paper-slider">
   </div>
-  <div id="left-content" class="audio-background-container"></div>
-  <div id="middle-content" class="audio-background-container"></div>
-  <div id="right-content" class="audio-background-container"></div>
+<div id="left-content" class="audio-background-container">
+  <div id="previous-btn">
+    <button>      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M19 18V6L8 12L19 18Z" fill="white"/>
+      <path d="M5 6V18" stroke="white" stroke-width="2" stroke-linecap="round"/>
+      </svg></button>
+
+  </div>
+
+  <div id="play-btn">
+    <button> <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M5 3L19 12L5 21V3Z" fill="white"/>
+    </svg></button>
+
+  </div>
+  
+  <div id="next-btn">
+    <button><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+  <path d="M4.5 4.5v15l9-7.5-9-7.5z" fill="#ffffff"/>
+  <rect x="15.5" y="4.5" width="1.8" height="15" rx="0.2" fill="#ffffff"/>
+</svg></button>
+
+  </div>
+  <span id="time-info">00:00 / 00:00</span>
+</div>
+  <!-- <div id="middle-content" class="audio-background-container"></div> -->
+  <!-- <div id="right-content" class="audio-background-container"></div> -->
 </div>
 
 
