@@ -344,19 +344,66 @@ button{
 .pannel-container{
   position: absolute;
   display: flex;
+  align-items: center;
+  justify-content: flex-start;
   height: 600px;
   width: calc(100% - 73px);
   left: 73px;
   top: 65px;
   background-color:#030303;
+  gap:300px
+  
 }
 
 #main-pannel{
-
+  position: relative;
+    width: 500px;
+    height: 550px;
+    background-color: aqua;
+    display: flex;
+    flex-shrink: 0;
+    margin-left: 100px;
 }
 
 #side-pannel{
+    position: relative;
+    width: 600px;
+    height: 95%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    right: 20px;
+}
 
+#container-lyrics{
+  background-color: wheat;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#play-list{
+  background-color: rgb(186, 245, 179);
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+#option{
+  background-color: rgb(245, 203, 179);
+  width: 100%;
+  height: 10%;
+  display: flex;
+}
+
+#songlist{
+  background-color: rgb(245, 179, 187);
+  width: 100%;
+  height: 70%;
+  display: flex;
 }
 
 
