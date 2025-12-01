@@ -369,14 +369,14 @@ button{
     position: relative;
     width: 600px;
     height: 95%;
-    background-color: aqua;
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     right: 20px;
 }
 
 #container-lyrics{
-  background-color: wheat;
+  background-color: transparent;
   width: 100%;
   height: 10%;
   display: flex;
@@ -384,8 +384,19 @@ button{
   justify-content: space-between;
 }
 
+
+#divider-line{
+  top: 64px;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+  width: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  background:#030303;
+}
+
 #play-list{
-  background-color: rgb(186, 245, 179);
+  background-color: transparent;
   width: 100%;
   height: 10%;
   display: flex;
@@ -393,24 +404,33 @@ button{
 }
 
 #option{
-  background-color: rgb(245, 203, 179);
+  background-color: transparent;
   width: 100%;
   height: 10%;
   display: flex;
 }
 
 #songlist{
-  background-color: rgb(245, 179, 187);
+  position:relative;
+  background-color: transparent;
   width: 100%;
   height: 70%;
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 5px;
 }
+
+#song-info{
+  background: transparent;
+  color: aliceblue;
+}
+
 
 
 .song{
   display: flex;
+  background: transparent;
+  gap: 5px;
 }
 
 
